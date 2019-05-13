@@ -18,6 +18,8 @@ declare module "*.glsl" {
   export default content;
 }
 
+declare module "*.css";
+
 interface GA {
   (...args: any[]): void;
   q: any[];
